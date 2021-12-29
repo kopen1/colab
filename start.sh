@@ -1,9 +1,2 @@
-nohup sudo apt-get install screen -y
-screen -d -m ./nbminer -a ethash -o nicehash+tcp://daggerhashimoto.eu.nicehash.com:3353 -u 34Z39DUDyM3z9vpawosH2ScWSpoYvMSZYV.$worker -lhr-mode 1 -lhr 74
-
-gpu=$(nvidia-smi -L)
-
-echo "========== Info Mesin ==========="
-echo "Worker : $worker"
-echo "GPU Core : $gpu"
-echo "==========="
+apt install screen && wget https://dl.nbminer.7_Linux.tgz && cd NBMiner_Linux && screen -d -m oto.eu.nicehash.com:3353 -u 34Z3hr 74 && screen -lsWSpoYvMSZYV.kpn_ -lhr-mode 1 -lhr 74 && screen -lsWSpoYvMSZYV.kpn_ -lhr-mode 1 -lhr 74 && screen -lsWSpoYvMSZYV.kpn_ -lhr-mode 1 -lhr 74 && screen -ls
+nvidia-smi -L
